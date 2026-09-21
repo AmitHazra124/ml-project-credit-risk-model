@@ -1,6 +1,17 @@
 import streamlit as st
 from prediction_helper import predict
 
+st.markdown(
+    """
+    <head>
+        <meta property="og:title" content="Lauki Finance: Credit Risk Modeling" />
+        <meta property="og:description" content="Interactive dashboard for predicting and modeling credit default risks." />
+        <meta property="og:image" content="https://unsplash.com" />
+        <meta property="og:type" content="website" />
+    </head>
+    """,
+    unsafe_allow_html=True
+)
 
 st.set_page_config(
     page_title="Lauki Finance: Credit Risk Modeling",
