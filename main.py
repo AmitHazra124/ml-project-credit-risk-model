@@ -1,6 +1,14 @@
 import streamlit as st
 from prediction_helper import predict
 
+
+st.set_page_config(
+    page_title="Lauki Finance: Credit Risk Modeling",
+    page_icon="🛡️", # Shield emoji for risk protection
+    layout="wide"
+)
+
+
 st.title("Lauki Finance: Credit Risk Modeling")
 
 row1 = st.columns(3)
